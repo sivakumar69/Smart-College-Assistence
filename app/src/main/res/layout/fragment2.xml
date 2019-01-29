@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" WELCOME TO AMRITA UNIVERSITY DASHBOARD "
+            android:id="@+id/textView3"
+            android:scrollHorizontally="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="#fe9b62"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/main_block"
+            android:scaleType="centerCrop"
+            android:layout_below="@+id/textView3"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=" ENDSEM STARTS                        14-05-2016\n ENDSEM ENDS                             21-05-2016\n CIR SUMMER TRAINING             23-06-2016\n REGULAR CLASSES                    14-07-2016\n PERIODICAL 1                             16-08-2016"
+            android:id="@+id/textView6"
+            android:scrollHorizontally="false"
+            android:maxLines="3"
+            android:scrollbars="vertical"
+            android:textColor="#a54005"
+            android:layout_below="@+id/textView7"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:focusable="true"
+            android:enabled="true"
+            android:focusableInTouchMode="true" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text=" DEADLINES WITH THEIR DATES:"
+            android:id="@+id/textView7"
+            android:textColor="#0e858c"
+            android:singleLine="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textView6"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text=" IMPORTANT NOTICES:"
+                android:id="@+id/tv8"
+                android:textColor="#155002"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:singleLine="true"
+                android:layout_marginTop="2dp"
+                android:id="@+id/t1"
+                android:focusableInTouchMode="true"
+                android:text=" MISSED PERIODICALS"
+                android:layout_below="@+id/tv8"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#050505"
+                android:clickable="true"
+                android:background="#9ed6f3"
+                android:textStyle="bold"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/s1"
+                android:text="Missed periodicals have been postponed Time tables have been updated On respective notice boards"
+                android:focusableInTouchMode="true"
+                android:layout_below="@+id/t1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#3f3b41"
+                android:visibility="gone"
+                android:background="#9ed6f3"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/t2"
+                android:focusableInTouchMode="true"
+                android:text=" CIR SUMMER VACATION "
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/s1"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:textColor="#040404"
+                android:clickable="true"
+                android:background="#d57fc0"
+                android:textStyle="bold"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/s2"
+                android:text="CIR have published summer vacation time Table for all the students and it is Compalsary"
+                android:layout_below="@+id/t2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:visibility="gone"
+                android:background="#d57fc0"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="NO SUPPLEMENTARY EXAMS"
+                android:id="@+id/t3"
+                android:layout_marginTop="2dp"
+                android:layout_below="@+id/s2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:clickable="true"
+                android:textColor="#040404"
+                android:background="#a49898"
+                android:textStyle="bold"
+                android:textSize="19dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/s3"
+                android:text="From this academic year onwards there won't be supplementary exams, please make a note of it!"
+                android:layout_below="@+id/t3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:visibility="gone"
+                android:background="#a49898"
+                android:textSize="19dp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

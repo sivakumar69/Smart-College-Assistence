@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rg_subjects">
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESENT"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/present"
+        android:checked="false"
+        android:onClick="slected_radio_button" />
+
+    <RadioButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABSENT"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/absent"
+        android:checked="false"
+        android:onClick="slected_radio_button" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="PRESENT FOR 2 CLASSES ON SAME DAY"
+            android:id="@+id/cancelled"
+            android:checked="false"
+            android:onClick="slected_radio_button" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="ABSENT FOR 2 CLASSES ON SAME DAY"
+            android:id="@+id/twoclasses"
+            android:checked="false"
+            android:onClick="slected_radio_button" />
+
+    </RadioGroup>
+
+</LinearLayout>

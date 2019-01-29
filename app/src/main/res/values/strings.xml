@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Attendance Assist</string>
+    <string name="action_settings">Add</string>
+    <string name="opendrawer">Open</string>
+    <string name="closedrawer">Close</string>
+    <string name="title_delete">Delete</string>
+    <string name="title_rename">Rename</string>
+    <string name="title_deleteall">Delete All</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_daily_updates">Daily_updates</string>
+    <string name="title_activity_forum">Forum</string>
+</resources>
